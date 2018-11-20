@@ -1,0 +1,542 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-image: url("imgs/halftone-yellow.png");
+}
+
+
+#root {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.app-wrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.app-content-container {
+  box-sizing: border-box;
+  margin: 1rem;
+  padding: 1rem;
+}
+
+.nav-container {
+  height: 3rem;
+  display: flex;
+  justify-content: space-between;
+  background-color: #4b2e83;
+}
+
+
+
+.icon-text-container {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem;
+  justify-content: center;
+}
+
+li {
+  list-style: none;
+}
+
+.card {
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.16), 0 10px 10px rgba(0, 0, 0, 0.23);
+}
+
+.hypnotize {
+  color: white;
+  background-image: url("imgs/hypnotize.png");
+  border-radius: 10px;
+  padding: 2rem;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.16), 0 10px 10px rgba(0, 0, 0, 0.23);
+  background: linear-gradient(45deg,rgb(0,0,0), rgb(51,0,111));
+
+}
+
+footer:hover {
+  color: white;
+  background: linear-gradient(45deg,rgb(8, 32, 97), rgb(51,0,111));
+}
+.cloth {
+  background-image: url("imgs/cloth.png");
+  border-radius: 2px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.16), 0 10px 10px rgba(0, 0, 0, 0.23);
+}
+
+.nav-item {
+  margin: auto;
+  padding: 0.4rem;
+}
+
+.nav-icon {
+  height: 40px;
+}
+
+
+.lastbutton {
+  margin-top: 1rem;
+}
+
+div.collapse.show.navbar-collapse {
+  background-color: #4b2e83;
+  z-index: 10;
+}
+
+.buttons.nav-item {
+  justify-content: space-between;
+}
+
+.buttons > * {
+  flex-basis: 47.5%;
+}
+
+footer {
+  background-color: white;
+  text-align: center;
+  padding-top: 2rem;
+  bottom: 0;
+  width: 100%;
+  box-shadow: 0 -7px 3px rgba(0, 0, 0, 0.16), 
+              0 -12px 3px rgba(158, 69, 69, 0.23);
+}
+
+.star-icon {
+  max-width: 20px;
+}
+
+textarea {
+  width: 100%;
+}
+
+/* main page */
+.auth-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title-container {
+  background-color: whitesmoke;
+  padding: 0.4rem;
+  margin-bottom: 1rem;
+  align-items: center;
+  text-align: center;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.16), 0 10px 10px rgba(0, 0, 0, 0.23);
+}
+
+.main-page {
+  margin-top: 3rem;
+}
+
+.main-title-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.disable-link {
+  pointer-events: none;
+}
+
+/* specific representative section */
+.specific-rep {
+  text-align: center;
+}
+
+.rep-info-container, .comment-container {
+  padding: 1rem;
+  color: black;
+  border-radius: 10px;
+  box-shadow: 0 10px 10px rgba(78, 255, 107, 0.16), 0 10px 10px rgba(240, 239, 229, 0.23);
+}
+
+.comment-container {
+  margin-top: 2rem;
+}
+
+.comment-title-container {
+  margin-bottom: 2rem;
+}
+
+.rep-info-container > div {
+  margin-bottom: 1.5rem;
+}
+
+.rep-info-container > div:last-of-type {
+  margin-bottom: 0px;
+}
+
+.surprise {
+  margin-top: 10rem;
+}
+
+/*-----Friends----*/
+.friends-container {
+  text-align: center;
+}
+
+.friends-item {
+  padding: 0.5rem;
+  margin: 1rem;
+}
+
+.top-request-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.top-request-item:first-of-type {
+  flex-basis: 70%;
+}
+
+.top-request-item:last-of-type {
+  flex-basis: 20%;
+}
+
+.info-piece-container, .friend-piece-container, .request-piece-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem;
+}
+
+.friend-piece-container {
+  margin-top: 0.5rem;
+  border-radius: 2px;
+}
+/*-------*/
+
+
+/*---Search---*/
+.search-container {
+  text-align: center;
+}
+
+.search-rep-container {
+  box-sizing: border-box;
+  margin: 3rem;
+  padding: 2rem;
+}
+
+.note {
+  margin-top: 1rem;
+}
+
+.search-result-container {
+  box-sizing: border-box;
+  padding: 2rem;
+  margin: 2rem;
+}
+
+.search-buttons {
+  margin-bottom: 1rem;
+}
+
+/*--Dashboard---*/
+.dashboard-content-container {
+  margin: 4rem;
+  padding: 2rem;
+}
+
+/*--------Log In Page ---------*/
+.log-in-container, .sign-up-container {
+  padding: 2rem;
+  text-align: center;
+}
+.sign-up-content:hover,.log-in-content:hover {
+  color: white;
+  background: linear-gradient(45deg,rgb(0,0,0), rgb(51,0,111));
+}
+
+.log-in-item:first-of-type {
+  margin-bottom: 3rem;
+}
+
+.log-in-content {
+  padding: 2rem;
+}
+
+.button-container {
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  padding-left: 6rem;
+  padding-right: 6rem;
+  display: flex;
+}
+
+/*----sign-up page---*/
+
+.sign-up-item:first-of-type {
+  margin-bottom: 3rem;
+}
+
+.sign-up-content {
+  padding: 2rem;
+}
+
+/*----*/
+
+
+/*-----Profile ------*/
+.profile {
+  display: flex;
+  justify-content: center;
+  margin: 1rem;
+}
+
+.user-profile {
+  width: 100%;
+  padding: 1.5rem;
+  max-width: 450px;
+  border-radius: 5px;
+  text-align: center;
+  overflow: hidden;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.16), 0 1px 3px rgba(158, 69, 69, 0.23);
+}
+
+.profile-title {
+  margin-bottom: 3rem;
+}
+
+.default {
+  background: whitesmoke;
+}
+
+.dropzone-container {
+  width: 100%;
+  background: whitesmoke;
+  
+  height: 20rem;
+  display: flex;
+  border-radius: 5px;
+  border: black dashed 1px;
+  color: black;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+.dropzone-container > div {
+  margin: auto;
+}
+
+.fail {
+  background-color: #f2dede;
+  border-color: #ebcccc;
+  color: #a94442;
+}
+
+.success {
+  background-color: #dff0d8;
+  border-color: #d0e9c6;
+  color: #3c763d;
+}
+
+.new-user-name {
+  margin-bottom: 1rem;
+}
+
+.avatar img {
+  width:100%;
+}
+
+/*----------------*/
+.search-item {
+  margin-bottom: 1rem;
+}
+
+.button-container {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.link {
+  display: inline-block;
+  background-color: #007bff;
+  border-radius: 3px;
+  padding: 0.3rem;
+}
+
+.log-in {
+  padding: 0.4rem;
+  background: linear-gradient(45deg,rgb(6, 155, 56), rgb(6, 155, 56));
+}
+
+.log-off {
+  padding: 0.4rem;
+  background: linear-gradient(45deg,rgb(182, 14, 14), rgb(182, 14, 14));
+}
+
+.candidate-card {
+  margin: 1rem;
+}
+
+.card-body {
+  padding: 0.5rem;
+  color: black;
+}
+
+.card-body:hover {
+  background: linear-gradient(45deg,rgb(36, 192, 8), rgb(4, 105, 38));
+}
+
+.card-img {
+  width: 350px;
+  height: 350px;
+}
+
+.card-icons-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.icon {
+  padding: 0.2rem;
+  padding-left: 0.4rem;
+  padding-right: 0.4rem;
+  border-radius: 2px;
+}
+
+.white {
+  background-color: whitesmoke;
+  border-radius: 1px;
+}
+
+
+.users-candidates {
+  width: 100%;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.16), 0 1px 3px rgba(158, 69, 69, 0.23);
+}
+
+.comment-card {
+  text-align: center;
+  margin: 0.5rem;
+}
+
+.comment-profile {
+  width: 50px;
+  height: auto;
+}
+
+.comment-user-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0.5rem;
+  border-top: 1px solid grey;
+}
+
+ul > * {
+  margin-top: 2rem;
+  border-radius: 2px;
+}
+
+ul.bills > * {
+  background-color: white;
+}
+
+/* about us page */
+.about-us-main {
+  padding: 1rem;
+}
+
+ul > * > a {
+  color: #4b2e83;
+}
+
+ul > * > a:hover {
+  color: #85754d;
+}
+
+.about-us-main > div {
+  text-align: center;
+  padding: 2rem;
+  margin-bottom: 1rem;
+}
+
+.about-title {
+  margin-bottom: 2rem;
+}
+
+.question {
+  margin-bottom: 2rem;
+}
+
+.about-button {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+/*------*/
+
+
+@media(min-width: 540px) {
+  .title-container {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+  }
+
+  .auth-container {
+    flex-basis: 20%;
+  }
+
+  .main-title-container {
+    flex-direction: row;
+  }
+
+  .specific-rep {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .specific-rep > * {
+    flex-basis: 47%;
+  }
+
+  .comment-container {
+    margin-top: 0px;
+  }
+
+  .comment-title-container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .write-comment-container > div {
+    margin-bottom: 3rem;
+  }
+
+  .about-us-main {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+  }
+
+  .about-us-main > div {
+    flex-basis: 47.5%;
+  }
+
+  .lastbutton {
+    margin-top: 0px;
+  }
+}
+
+@media(min-width: 720px) {
+  .friends-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .friends-item {
+    flex-basis: 32%;
+  }
+}

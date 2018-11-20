@@ -1,0 +1,20 @@
+{
+<<<<<<< HEAD
+  "main.css": "static/css/main.daa6c5c9.css",
+  "main.css.map": "static/css/main.daa6c5c9.css.map",
+  "main.js": "static/js/main.b93e3d57.js",
+  "main.js.map": "static/js/main.b93e3d57.js.map",
+=======
+  "main.css": "static/css/main.85efeb02.css",
+  "main.css.map": "static/css/main.85efeb02.css.map",
+  "main.js": "static/js/main.8208d637.js",
+  "main.js.map": "static/js/main.8208d637.js.map",
+>>>>>>> 3f979eed5775044371743e0ccdff27e0e3ea7f17
+  "static/media/fontawesome-webfont.eot": "static/media/fontawesome-webfont.674f50d2.eot",
+  "static/media/fontawesome-webfont.svg?v=4.7.0": "static/media/fontawesome-webfont.912ec66d.svg",
+  "static/media/fontawesome-webfont.ttf?v=4.7.0": "static/media/fontawesome-webfont.b06871f2.ttf",
+  "static/media/fontawesome-webfont.woff2?v=4.7.0": "static/media/fontawesome-webfont.af7ae505.woff2",
+  "static/media/fontawesome-webfont.woff?v=4.7.0": "static/media/fontawesome-webfont.fee66e71.woff",
+  "static/media/halftone-yellow.png": "static/media/halftone-yellow.ce75830e.png",
+  "static/media/hypnotize.png": "static/media/hypnotize.3d120731.png"
+}
